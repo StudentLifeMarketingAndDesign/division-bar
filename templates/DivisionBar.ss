@@ -5,9 +5,9 @@
 			
 			<div class="span6 logos">
 					
-						<a href="http://www.uiowa.edu/" class="uiowa-logo"><img src="{$ThemeDir}/images/uiowa_logo.png" /></a> 
+						<a href="http://www.uiowa.edu/" class="uiowa-logo"><img src="{$BaseHref}divisionbar/images/uiowa_logo.png" /></a> 
 						<a href="http://studentlife.uiowa.edu" class="dsl-logo">
-							<img src="{$ThemeDir}/images/dsl_logo.png" />
+							<img src="{$BaseHref}divisionbar/images/dsl_logo.png" />
 						</a>
 			</div><!-- end span6 -->
 		
