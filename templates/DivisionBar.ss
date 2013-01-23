@@ -14,7 +14,7 @@
 			<div class="span6 division-nav">
 				<ul id="univ-nav">
 				
-					<li><a href="#" class="btn btn-primary directory">Division Directory</a>
+					<li><a href="http://studentlife.uiowa.edu/about/directory/" class="btn btn-primary directory">Division Directory</a>
 					</li>
 				</ul>
 			</div><!-- end span6 division-nav -->
