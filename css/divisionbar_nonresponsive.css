@@ -63,7 +63,7 @@
 /* Media Queries */
 @media (max-width: 525px) {
 
-	/*#studentlife-bar {
+	#studentlife-bar {
 	  border-top: none;
 	}
 
@@ -80,7 +80,7 @@
 		padding: 0.2em;
 	}
 
-*/
+
 }
 
 
