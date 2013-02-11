@@ -10,10 +10,10 @@
 	background:linear-gradient(to bottom, #333 0%, #262626 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#262626',GradientType=0 );
 	font-family:Arial, Helvetica, sans-serif;
-	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.4);
-	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.4);
-	-o-box-shadow:0 1px 3px rgba(0,0,0,0.4); 
-	box-shadow:0 1px 3px rgba(0,0,0,0.4);
+	-webkit-box-shadow:0 1px 6px rgba(20,20,20,0.3);
+	-moz-box-shadow:0 1px 6px rgba(20,20,20,0.3);
+	-o-box-shadow:0 1px 6px rgba(20,20,20,0.3); 
+	box-shadow:0 1px 6px rgba(20,20,20,0.3);
 	position:relative;
 	z-index:1
 
@@ -26,6 +26,12 @@
   border-top: 3px solid #ffce39;
 }
 
+#studentlife-bar a {
+	font-weight: normal;
+	font-size: 14px;
+	text-decoration: none;
+}
+
 .uiowa-logo {
 	/*display: block;*/
 	float: left;
@@ -36,6 +42,8 @@
 	float: right;
 	color: white;
 }
+
+
 
 .logos {
 	padding: 5px 2px;
@@ -58,35 +66,6 @@
   -webkit-font-smoothing: antialiased;
 }
 
-
-
-/* Media Queries */
-@media (max-width: 525px) {
-
-	#studentlife-bar {
-	  border-top: none;
-	}
-
-	.uiowa-logo{
-		margin-top: -2px;
-		width:30%;
-	}
-	
-	.directory{
-		font-size: 0.7em;
-	}
-	
-	.logos {
-		padding: 0.2em;
-	}
-
-
+.clearfix{
+	clear: both;
 }
-
-
-@media (max-width: 480px) {
-
-
-
-}
-

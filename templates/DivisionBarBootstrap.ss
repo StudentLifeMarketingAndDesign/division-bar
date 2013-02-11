@@ -1,4 +1,6 @@
-<% require css(divisionbar/css/divisionbar.css) %>
+<% require css(divisionbar/css/divisionbar-common.css) %>
+<% require css(divisionbar/css/divisionbar-bootstrap.css) %>
+
 <div id="studentlife-bar" class="container-fluid">
 	<div class="logos container">						
 		<a href="http://www.uiowa.edu/" class="uiowa-logo"><img src="{$BaseHref}divisionbar/images/uiowa_logo.png" /></a> 				
