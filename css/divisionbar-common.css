@@ -24,12 +24,12 @@
 #studentlife-bar {
  /* background-color: #000;*/
   border-top: 3px solid #ffce39;
+  border-bottom: #303030 1px solid;
 }
 
 #studentlife-bar a {
 	font-weight: normal;
 	font-size: 14px;
-	text-decoration: none;
 }
 
 .uiowa-logo {
