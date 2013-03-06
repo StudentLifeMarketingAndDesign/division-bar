@@ -36,7 +36,6 @@
 .uiowa-logo {
 	/*display: block;*/
 	float: left;
-	margin-top: -2px;
 }
 
 .directory {
@@ -46,9 +45,6 @@
 
 
 
-.logos {
-	padding: 5px 2px;
-}
 
 .btn-primary.directory {
   background-color: hsl(55, 10%, 13%) !important;

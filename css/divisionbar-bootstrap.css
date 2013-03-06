@@ -1,3 +1,12 @@
+.uiowa-logo {
+	margin-top: -2px;
+}
+
+.logos {
+	padding: 5px 2px;
+}
+
+
 /* Media Queries */
 @media (max-width: 525px) {
 

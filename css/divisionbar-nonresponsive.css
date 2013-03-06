@@ -1,12 +1,13 @@
 .logos {
 	width: 1000px;
 	margin: auto;
+	padding: 3px 0;
 }
 
 .uiowa-logo img{
-	margin-top: 3px;
+	margin-top: 5px;
 }
 
 .directory {
-	margin-top: 2px;
+	margin-top: 7px;
 }
