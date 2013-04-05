@@ -37,7 +37,7 @@
     position: relative;
 }
 .uiowa, .directory-toggle {
-    line-height: 40px;
+    line-height: 43px;
 }
 .uiowa {
     display: block;
@@ -47,6 +47,27 @@
 .uiowa:hover {
     opacity: 1;
 }
+
+/* ======================================================================
+    Min Width 1200px
+========================================================================= */
+@media only screen and (min-width:1200px) {
+    .wrapper {
+        width: 1200px;
+        max-width: intrinsic;
+    }
+}
+
+/* ======================================================================
+    Min Width 1400px
+========================================================================= */
+@media only screen and (min-width:1400px) {
+    .wrapper {
+        width: 1400px;
+    }
+}
+
+
 /* Toggles
 ========================================================= */
 .directory-toggle {

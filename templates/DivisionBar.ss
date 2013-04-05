@@ -1,9 +1,12 @@
+<% require css(division-bar/css/_division-bar.css) %>
+<% require javascript(division-bar/js/division-bar.js) %>
+
 <div class="division-topbar">
     <div class="wrapper">
         <div class="division-directory clearfix">
             <div class="dosl-wrapper clearfix">
                 <a href="http://studentlife.uiowa.edu/" class="dosl">
-                    <img src="images/division-bar/dosl-logo.png" alt="Division of Student Life">
+                    <img src="{$BaseHref}/division-bar/images/division-bar/dosl-logo.png" alt="Division of Student Life">
                 </a>
                 <p class="adr">
                     249 Iowa Memorial Union<br>
@@ -38,18 +41,18 @@
                         <li><a href="#">Counseling Services</a></li>
                         <li><a href="#">Health Iowa</a></li>
                         <li><a href="#">Student Health Services</a></li>
-                        <li><a href="#">Womenâ€™s Resource and Action Center</a></li>
+                        <li><a href="#">WomenÕs Resource and Action Center</a></li>
                     </ul>
                 </li>
             </ul>
         </div><!-- end .division-directory -->
         <div class="clearfix">
             <a href="http://www.uiowa.edu/" class="uiowa">
-                <img src="images/division-bar/uiowa.png" alt="The University of Iowa" width="177">
+                <img src="{$BaseHref}/division-bar/images/division-bar/uiowa.png" alt="The University of Iowa" width="177">
             </a>
 
             <a href="#" class="directory-toggle">
-                <img src="images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
+                <img src="{$BaseHref}/division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
             </a>
 
             <a href="#" class="search-toggle">Search</a>
