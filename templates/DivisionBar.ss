@@ -1,6 +1,4 @@
 <% require css(division-bar/css/_division-bar.css) %>
-<% require javascript(division-bar/js/division-bar.js) %>
-
 <div class="division-topbar">
     <div class="wrapper">
         <div class="division-directory clearfix">
@@ -54,15 +52,18 @@
             <a href="#" class="directory-toggle">
                 <img src="{$BaseHref}/division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
             </a>
-
+                        <% if SearchForm %>
             <a href="#" class="search-toggle">Search</a>
+            <% end_if %>
         </div>
+        <% if SearchForm %>
         <div class="division-search">
-            <form>
-                <label>Search</label>
-                <input type="search" placeholder="Search" results="5" name="s" class="division-search-input">
+            <form action="{$AbsoluteLink}SearchForm" method="get" enctype="application/x-www-form-urlencoded">
+	            <label>Search</label>
+                <input type="search" placeholder="Search" results="5" name="Search" class="division-search-input">
                 <input type="submit" class="division-search-btn">
             </form>
         </div>
-    </div>
+        <% end_if %>    
+     </div>
 </div>
