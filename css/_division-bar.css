@@ -99,9 +99,9 @@
 }
 .division-search-input {
     -webkit-appearance: textfield;
-    background: #333;
+    background: #fff;
     border: 1px solid #000;
-    color: #bbb;
+    color: #222;
     display: inline-block;
     font-size: 13px;
     font-family: arial, verdana, sans-serif;
@@ -120,9 +120,7 @@
 /* Focus */
 .division-search-input:focus {
     outline: none;
-    color: #222;
     text-shadow: none;
-    background-color: #fff !important;
     width: 180px;
 }
 [placeholder]:focus::-webkit-input-placeholder {
