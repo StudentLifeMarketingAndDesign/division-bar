@@ -7,40 +7,32 @@
                     <img src="{$BaseHref}/division-bar/images/division-bar/dosl-logo.png" alt="Division of Student Life">
                 </a>
                 <p class="adr">
-                    249 Iowa Memorial Union<br>
-                    Iowa City , IA 52242<br>
-                    319-335-3557 <br>
-                    <a href="mailto:vp-student-life@uiowa.edu">vp-student-life@uiowa.edu</a>
+                    The Division of Student Life fosters student success by creating and promoting inclusive educationally purposeful services and activities within and beyond the classroom.
                 </p>
             </div>
             <ul class="division-menu">
                 <li class="has-subnav">
-                    <a href="#">Student Success</a>
-                    <ul>
-                        <li><a href="#">Dean of Students</a></li>
-                        <li><a href="#">The Iowa Challenge</a></li>
-                        <li><a href="#">Leadership Development</a></li>
-                        <li><a href="#">Pick One Program</a></li>
-                        <li><a href="#">Student Disability Services</a></li>
-                    </ul>
-                </li>
-                <li class="has-subnav">
-                    <a href="#">Campus Life</a>
-                    <ul>
-                        <li><a href="#">Iowa Memorial Union</a></li>
-                        <li><a href="#">Center for Student Involvement and Leadership</a></li>
-                        <li><a href="#">Recreational Services</a></li>
-                        <li><a href="#">University Housing &amp; Dining</a></li>
-                    </ul>
-                </li>
-                <li class="has-subnav">
-                    <a href="#">Health and Safety</a>
-                    <ul>
-                        <li><a href="#">Counseling Services</a></li>
-                        <li><a href="#">Health Iowa</a></li>
-                        <li><a href="#">Student Health Services</a></li>
-                        <li><a href="#">Women’s Resource and Action Center</a></li>
-                    </ul>
+                    <a href="#" class="directory-link">Directory Navigation</a>
+                    <div class="division-show-hide">
+                        <ul class="menu-list">
+                            <li><a href="http://studentlife.uiowa.edu/">Division of Student Life</a></li>
+                            <li><a href="http://imu.uiowa.edu/center-for-student-involvement-and-leadership/">Center for Student Involvement &amp; Leadership</a></li>
+                            <li><a href="http://www.uiowa.edu/ucs/">Counseling Service</a></li>
+                            <li><a href="http://dos.uiowa.edu/">Dean of Students</a></li>
+                        </ul>
+                        <ul class="menu-list">
+                            <li><a href="http://housing.uiowa.edu/">Housing & Dining</a></li>
+                            <li><a href="http://imu.uiowa.edu/">Iowa Memorial Union</a></li>
+                            <li><a href="http://studentlife.uiowa.edu/pickone/">Pick One</a></li>
+                            <li><a href="http://recserv.uiowa.edu/Apps/Default.aspx">Recreational Services</a></li>
+                        </ul>
+                        <ul class="menu-list">
+                            <li><a href="http://www.uiowa.edu/sds/">Student Disability Services</a></li>
+                            <li><a href="http://studenthealth.uiowa.edu/">Student Health &amp; Wellness</a></li>
+                            <li><a href="http://wrac.uiowa.edu/">Women&rsquo;s Resource &amp; Action Center</a></li>
+                            <li><a href="http://studentlife.uiowa.edu/about/rocklin/">Vice President for Student Life</a></li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </div><!-- end .division-directory -->
