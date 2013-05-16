@@ -44,17 +44,19 @@
             <a href="#" class="directory-toggle">
                 <img src="{$BaseHref}/division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
             </a>
-                        <% if SearchForm %>
-            <a href="#" class="search-toggle">Search</a>
-            <% end_if %>
+		    <% if SearchForm %>
+		    	<a href="#" class="search-toggle">Search</a>
+		    <% end_if %>
         </div>
         <% if SearchForm %>
         <div class="division-search">
-            <form action="{$AbsoluteLink}SearchForm" method="get" enctype="application/x-www-form-urlencoded">
+        <% control SearchForm %>
+            <form $FormAttributes>
 	            <label>Search</label>
                 <input type="search" placeholder="Search" results="5" name="Search" class="division-search-input">
                 <input type="submit" class="division-search-btn">
             </form>
+        <% end_control %>
         </div>
         <% end_if %>    
      </div>
