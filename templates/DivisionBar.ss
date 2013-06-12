@@ -16,14 +16,14 @@
                     <div class="division-show-hide">
                         <ul class="menu-list">
                             <li><a href="http://studentlife.uiowa.edu/">Division of Student Life</a></li>
-                            <li><a href="http://imu.uiowa.edu/center-for-student-involvement-and-leadership/">Center for Student Involvement &amp; Leadership</a></li>
+                            <li><a href="http://csil.uiowa.edu/">Center for Student Involvement &amp; Leadership</a></li>
                             <li><a href="http://www.uiowa.edu/ucs/">Counseling Service</a></li>
                             <li><a href="http://dos.uiowa.edu/">Dean of Students</a></li>
                         </ul>
                         <ul class="menu-list">
                             <li><a href="http://housing.uiowa.edu/">Housing & Dining</a></li>
                             <li><a href="http://imu.uiowa.edu/">Iowa Memorial Union</a></li>
-                            <li><a href="http://studentlife.uiowa.edu/pickone/">Pick One</a></li>
+                            <li><a href="http://pickone.uiowa.edu">Pick One</a></li>
                             <li><a href="http://recserv.uiowa.edu/Apps/Default.aspx">Recreational Services</a></li>
                         </ul>
                         <ul class="menu-list">
