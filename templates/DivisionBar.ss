@@ -50,13 +50,13 @@
         </div>
         <% if SearchForm %>
         <div class="division-search">
-        <% control SearchForm %>
+        <% with SearchForm %>
             <form $FormAttributes>
 	            <label>Search</label>
                 <input type="search" placeholder="Search" results="5" name="Search" class="division-search-input">
                 <input type="submit" class="division-search-btn">
             </form>
-        <% end_control %>
+        <% end_with %>
         </div>
         <% end_if %>    
      </div>
