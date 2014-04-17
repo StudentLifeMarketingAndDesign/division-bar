@@ -1,4 +1,3 @@
-<% require css(division-bar/css/_division-bar.css) %>
 <div class="division-topbar">
     <div class="wrapper">
         <div class="division-directory clearfix">
