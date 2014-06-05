@@ -31,7 +31,7 @@
                             <li><a href="http://www.uiowa.edu/sds/" target="_blank">Student Disability Services</a></li>
                             <li><a href="http://studenthealth.uiowa.edu/" target="_blank">Student Health &amp; Wellness</a></li>
                             <li><a href="http://wrac.uiowa.edu/" target="_blank">Women&rsquo;s Resource &amp; Action Center</a></li>
-                            <li><a href="http://studentlife.uiowa.edu/about/rocklin/" target="_blank">Vice President for Student Life</a></li>
+                            <li><a href="http://vp.studentlife.uiowa.edu" target="_blank">Vice President for Student Life</a></li>
                         </ul>
                     </div>
                 </li>
@@ -53,8 +53,8 @@
         <div class="division-search">
         <% with SearchForm %>
             <form $FormAttributes>
-	            <label>Search</label>
-                <input type="search" placeholder="Search" results="5" name="Search" class="division-search-input" for="divisionsearchinput">
+	            <label for="divisionsearchinput">Search</label>
+                <input type="search" placeholder="Search" results="5" name="Search" class="division-search-input">
                 <input type="submit" class="division-search-btn" id="divisionsearchinput" value="search">
             </form>
         <% end_with %>
