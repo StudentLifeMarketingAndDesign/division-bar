@@ -17,6 +17,7 @@
 }
 
 .division-topbar img {vertical-align: middle;height: auto;max-width: 100%;}
+
 .division-topbar a {text-decoration: none;}
 
 .clearfix:before, .clearfix:after { content: " ";display: table;}
@@ -150,6 +151,9 @@
 }
 .dosl, .adr {
     font-size: 11px;
+}
+.dosl img{
+    max-width: 182px;
 }
 .adr a {
     color: #ddd;
