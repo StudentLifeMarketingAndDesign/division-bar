@@ -294,6 +294,7 @@
     }
     .search-toggle {
         background: url(../images/division-bar/magnifier-18.png) no-repeat 10px 10px;
+        background-size: 52%;
         padding: 10px;
         text-indent: -999em;
     }
