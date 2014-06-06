@@ -54,8 +54,8 @@
         <% with SearchForm %>
             <form $FormAttributes>
 	            <label for="divisionsearchinput">Search</label>
-                <input type="search" placeholder="Search" results="5" name="Search" class="division-search-input">
-                <input type="submit" class="division-search-btn" id="divisionsearchinput" value="search">
+                <input type="search"  id="divisionsearchinput" placeholder="Search" results="5" name="Search" class="division-search-input">
+                <input type="submit" class="division-search-btn" value="search">
             </form>
         <% end_with %>
         </div>

@@ -167,7 +167,7 @@
 .division-menu {
     padding: 25px 0 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     .division-menu .division-show-hide {
         display: block !important;
     }
