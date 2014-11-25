@@ -99,19 +99,21 @@
     margin: 0;
     position: relative;
 }
-.division-search-input {
+.division-search-input, input.division-search-input[type="search"] {
     -webkit-appearance: textfield;
     background: #fff;
     border: 1px solid #000;
     color: #222;
     display: inline-block;
     font-size: 13px;
+    height: auto;
     font-family: arial, verdana, sans-serif;
     line-height: normal;
     padding: 5px 0 4px 5px;
     position: relative;
     vertical-align: middle;
     width: 120px;
+    margin-bottom: 0;
     -webkit-border-radius: 15px;
        -moz-border-radius: 15px;
             border-radius: 15px;
@@ -120,7 +122,7 @@
             transition: width 0.2s ease, background-color 0.2s ease;
 }
 /* Focus */
-.division-search-input:focus {
+.division-search-input:focus, input.division-search-input[type="search"]:focus {
     outline: none;
     text-shadow: none;
     width: 180px;
