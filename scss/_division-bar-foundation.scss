@@ -54,11 +54,12 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     position: relative;
+
     .division-column {
         position: relative;
         @include grid-column($columns: 12, $last-column: true, $collapse: true);
         @media #{$large-up} {
-            @include grid-column($collapse: false);
+            @include grid-column($collapse: true);
         }
     }
 }
@@ -143,6 +144,7 @@
     @media #{$large-up} {
         float: right;
         width: 260px;
+        padding-left: 10px;
         &:after {}
         &:hover {
             text-decoration: none;
@@ -283,19 +285,30 @@
 }
 
 a.dosl, p.adr {
-    float: left;
-    width: 50%;
+
+    float: none;
+    width: 100%;
     font-size: 11px;
-    padding: 10px 0;
-    @media #{$large-up} {
-        float: none;
+    padding: 10px;
+    padding-bottom: 0;
+    display: block;
+
+    @media #{$medium-up} {
+        float: left;
+        width: 50%;
+    }
+
+    @media #{$large-up}{
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 10px;
+        display: block;
         width: 100%;
     }
 }
 
 .dosl img {
     max-width: 182px;
-    margin-left: 10px;
     @media #{$large-up} {
         margin-left: 0;
     }
