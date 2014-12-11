@@ -58,7 +58,7 @@
     .division-column {
         position: relative;
         @include grid-column($columns: 12, $last-column: true, $collapse: true);
-        @media #{$medium-up} {
+        @media #{$large-up} {
             @include grid-column($collapse: true);
         }
     }
@@ -74,7 +74,7 @@
     opacity: .7;
     width: 177px;
     margin-left: 10px;
-    @media #{$medium-up} {
+    @media #{$large-up} {
         margin-left: 0;
     }
 }
@@ -96,7 +96,7 @@
     height: 40px;
     text-decoration: none;
     width: 40px;
-    @media #{$medium-up} {
+    @media #{$large-up} {
         border-left: none;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
@@ -109,7 +109,7 @@
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.5), -1px 0 0 rgba(255, 255, 255, 0.1);
     -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.5), -1px 0 0 rgba(255, 255, 255, 0.1);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.5), -1px 0 0 rgba(255, 255, 255, 0.1);
-    @media #{$medium-up} {
+    @media #{$large-up} {
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none;
@@ -129,7 +129,7 @@
         position: relative;
         text-decoration: none;
         width: 0px;
-        @media #{$medium-up} {
+        @media #{$large-up} {
             left: 4px;
         }
     }
@@ -141,7 +141,7 @@
     img {
         display: none;
     }
-    @media #{$medium-up} {
+    @media #{$large-up} {
         float: right;
         width: 260px;
         padding-left: 10px;
@@ -160,7 +160,7 @@
     background-size: 52%;
     padding: 10px;
     text-indent: -999em;
-    @media #{$medium-up} {
+    @media #{$large-up} {
         display: none;
     }
 }
@@ -180,7 +180,7 @@
     form {
         padding: 10px;
     }
-    @media #{$medium-up} {
+    @media #{$large-up} {
         border-top: none;
         display: block !important;
         position: absolute;
@@ -239,7 +239,7 @@
             text-shadow: none;
             width: 180px;
         }
-        @media #{$medium-up} {
+        @media #{$large-up} {
             width: 120px;
         }
     }
@@ -264,7 +264,7 @@
 .division-menu .directory-link {
     display: block;
     position: relative;
-    @media #{$medium-up} {
+    @media #{$large-up} {
         display: none;
     }
 }
@@ -277,7 +277,7 @@
     float: none;
     padding: 0;
     width: 100%;
-    @media #{$medium-up} {
+    @media #{$large-up} {
         float: left;
         padding: 10px 0;
         width: 25%;
@@ -293,7 +293,7 @@ a.dosl, p.adr {
     padding-bottom: 0;
     display: block;
 
-    @media #{$large-up} {
+    @media #{$medium-up} {
         float: left;
         width: 50%;
     }
@@ -309,7 +309,7 @@ a.dosl, p.adr {
 
 .dosl img {
     max-width: 182px;
-    @media #{$medium-up} {
+    @media #{$large-up} {
         margin-left: 0;
     }
 }
@@ -331,7 +331,7 @@ a.dosl, p.adr {
         float: none;
         padding-left: 0;
         width: 100%;
-        @media #{$medium-up} {
+        @media #{$large-up} {
             float: left;
             padding-left: 2.75%;
             width: 33%;
@@ -342,12 +342,12 @@ a.dosl, p.adr {
         a {
             font-size: 14px;
             padding-left: 20px;
-            @media #{$medium-up} {
+            @media #{$large-up} {
                 font-size: 11px;
                 padding-left: 10px;
             }
         }
-        @media #{$medium-up} {
+        @media #{$large-up} {
             background: none;
         }
     }
@@ -360,7 +360,7 @@ a.dosl, p.adr {
         -moz-transition: none;
         transition: none;
         display: block;
-        @media #{$medium-up} {
+        @media #{$large-up} {
             background: none;
             border-left: 1px solid #555;
             border-bottom: 0;
@@ -384,7 +384,7 @@ a.dosl, p.adr {
         margin-bottom: 0;
         text-transform: none;
         padding-left: 10px;
-        @media #{$medium-up} {
+        @media #{$large-up} {
             padding-left: 0;
         }
     }
@@ -403,11 +403,11 @@ a.dosl, p.adr {
     }
     .division-show-hide {
         display: none;
-        @media #{$medium-up} {
+        @media #{$large-up} {
             display: block !important;
         }
     }
-    @media #{$medium-up} {
+    @media #{$large-up} {
         padding: 25px 0 0;
         width: 75%;
     }
