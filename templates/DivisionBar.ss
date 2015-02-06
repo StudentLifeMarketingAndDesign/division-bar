@@ -3,7 +3,7 @@
         <div class="division-directory clearfix">
             <div class="dosl-wrapper clearfix">
                 <a href="http://studentlife.uiowa.edu/" class="dosl">
-                    <img src="{$BaseHref}/division-bar/images/division-bar/dosl-logo.png" alt="Division of Student Life">
+                    <img src="{$BaseHref}division-bar/images/division-bar/dosl-logo.png" alt="Division of Student Life">
                 </a>
                 <p class="adr">
                     The Division of Student Life fosters student success by creating and promoting inclusive educationally purposeful services and activities within and beyond the classroom.
@@ -39,11 +39,11 @@
         </div><!-- end .division-directory -->
         <div class="clearfix">
             <a href="http://www.uiowa.edu/" class="uiowa" target="_blank">
-                <img src="{$BaseHref}/division-bar/images/division-bar/uiowa.png" alt="The University of Iowa" width="177">
+                <img src="{$BaseHref}division-bar/images/division-bar/uiowa.png" alt="The University of Iowa" width="177">
             </a>
 
             <a href="#" class="directory-toggle" target="_blank"> 
-                <img src="{$BaseHref}/division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
+                <img src="{$BaseHref}division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
             </a>
 		    <% if SearchForm %>
 		    	<a href="#" class="search-toggle">Search</a>
