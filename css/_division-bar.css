@@ -55,6 +55,7 @@
 ========================================================= */
 .directory-toggle {
     float: right;
+    width: 253px;
 }
 .search-toggle {
     display: none;
@@ -106,8 +107,8 @@
     color: #222;
     display: inline-block;
     font-size: 13px;
-    height: auto;
     font-family: arial, verdana, sans-serif;
+    height: auto;
     line-height: normal;
     padding: 5px 0 4px 5px;
     position: relative;
@@ -137,6 +138,19 @@
 
 /* Division Directory
 ========================================================= */
+/* Hide the division directory on page load */
+.division-directory {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .5s linear;
+    -moz-transition: max-height .5s linear;
+    transition: max-height .5s linear;
+
+}
+/* show the division directory when toggled */
+.division-directory.active {
+    max-height: 800px;
+}
 .division-menu .directory-link {
     display: none;
 }
@@ -169,7 +183,7 @@
 .division-menu {
     padding: 25px 0 0;
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
     .division-menu .division-show-hide {
         display: block !important;
     }
@@ -226,6 +240,9 @@
     .dosl, .adr {
         float: left;
         width: 50%;
+    }
+    .dosl img {
+        max-width: 182px;
     }
     .division-menu .directory-link {
         display: block;
