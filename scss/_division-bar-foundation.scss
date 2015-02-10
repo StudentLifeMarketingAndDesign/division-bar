@@ -118,6 +118,7 @@
 }
 
 .directory-toggle {
+
     &:after {
         left: 14px;
         content: '';
@@ -145,6 +146,7 @@
         float: right;
         width: 260px;
         padding-left: 10px;
+
         &:hover {
             text-decoration: none;
         }
@@ -267,6 +269,21 @@
 
 /* Division Directory
 ========================================================= */
+
+/* Hide the division directory on page load */
+.division-directory {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height .6s ease-in-out;
+    -moz-transition: max-height .6s ease-in-out;
+    transition: max-height .6s ease-in-out;
+
+}
+/* show the division directory when toggled */
+.division-directory.active {
+    max-height: 800px;
+}
+
 .division-menu .directory-link {
     display: block;
     position: relative;
@@ -278,6 +295,8 @@
 .division-directory {
     color: #ddd;
 }
+
+
 
 .dosl-wrapper, .division-menu {
     float: none;
