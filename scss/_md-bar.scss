@@ -1,16 +1,28 @@
 .md-bar{
 	background: #111;
-	text-align: center;
 	color: white;
 	p{
+		text-align: center;
 		margin: 0;
 		padding: 5px 0;
 		a{
 			color: #4DA2CD;
 		}
+
+		span{
+			@media screen and(min-width: 768px){
+				margin-left: 5px;
+			}
+		}
 	}
 	.md-logo{
-		max-width: 75px;
+		max-width: 65px;
 		padding: 5px 0;
+		display: block;
+		margin: auto;
+		height: 48px;
+		@media screen and(min-width: 768px){
+			display: inline;
+		}
 	}
 }
