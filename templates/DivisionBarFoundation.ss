@@ -29,7 +29,7 @@
                                 <li><a href="http://osmrc.uiowa.edu" target="_blank">Sexual Misconduct Response Coordinator</a></li>
                             </ul>
                             <ul class="menu-list">
-                                <li><a href="http://www.uiowa.edu/sds/" target="_blank">Student Disability Services</a></li>
+                                <li><a href="http://sds.studentlife.uiowa.edu/" target="_blank">Student Disability Services</a></li>
                                 <li><a href="http://studenthealth.uiowa.edu/" target="_blank">Student Health &amp; Wellness</a></li>
                                 <li><a href="http://wrac.uiowa.edu/" target="_blank">Women&rsquo;s Resource &amp; Action Center</a></li>
                                 <li><a href="http://vp.studentlife.uiowa.edu" target="_blank">Vice President for Student Life</a></li>
