@@ -42,7 +42,7 @@
                 <img src="{$BaseHref}division-bar/images/division-bar/uiowa.png" alt="The University of Iowa" width="177">
             </a>
 
-            <button href="#" class="directory-toggle" target="_blank" style="background-color: transparent; border: none;"> 
+            <button href="#" class="directory-toggle" target="_blank"> 
                 <img src="{$BaseHref}division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
             </button>
 
