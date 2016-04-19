@@ -42,9 +42,10 @@
                 <img src="{$BaseHref}division-bar/images/division-bar/uiowa.png" alt="The University of Iowa" width="177">
             </a>
 
-            <a href="#" class="directory-toggle" target="_blank"> 
+            <button href="#" class="directory-toggle" target="_blank" style="background-color: transparent; border: none;"> 
                 <img src="{$BaseHref}division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
-            </a>
+            </button>
+
 		    <% if SearchForm %>
 		    	<a href="#" class="search-toggle">Search</a>
 		    <% end_if %>
@@ -54,8 +55,8 @@
         <% with SearchForm %>
             <form $FormAttributes>
 	            <label for="divisionsearchinput">Search</label>
-                <input type="search"  id="divisionsearchinput" placeholder="Search" results="5" name="Search" class="division-search-input">
-                <input type="submit" class="division-search-btn" value="search">
+                <input type="search" title="search" id="divisionsearchinput" placeholder="Search" results="5" name="Search" class="division-search-input">
+                <input type="submit" title="submit" class="division-search-btn" value="search">
             </form>
         <% end_with %>
         </div>
