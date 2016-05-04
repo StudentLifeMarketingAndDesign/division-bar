@@ -42,11 +42,17 @@
                 <img src="{$absoluteBaseURL}division-bar/images/division-bar/uiowa.png" alt="The University of Iowa" width="177">
             </a>
 
+<<<<<<< HEAD
             <button class="directory-toggle" target="_blank"> 
                 <img src="{$absoluteBaseURL}division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
             </button>
 
 
+=======
+            <a href="#" class="directory-toggle" target="_blank"> 
+                <img src="{$absoluteBaseURL}division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
+            </a>
+>>>>>>> master
 		    <% if SearchForm %>
 		    	<button class="search-toggle">Search</button>
 		    <% end_if %>
