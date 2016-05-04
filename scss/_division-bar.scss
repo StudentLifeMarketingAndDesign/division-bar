@@ -102,11 +102,18 @@
 /* Toggles
 ========================================================= */
 
+.division-topbar {
+    button {
+        background-color: transparent;
+        border: none;
+        text-align: left;
+        padding: 0;
+    }
+}
+
 .directory-toggle {
     float: right;
     width: 253px;
-    background-color: transparent;
-    border: none;
 }
 
 .search-toggle {
@@ -401,7 +408,7 @@
         }
     }
 
-    .has-subnav > a {
+    .has-subnav > button {
         &:after {
             /* if subnav, add a plus sign */
             content: '+';

@@ -11,7 +11,7 @@
             </div>
             <ul class="division-menu">
                 <li class="has-subnav">
-                    <a href="#" class="directory-link">Directory Navigation</a>
+                    <button class="directory-link">Directory Navigation</button>
                     <div class="division-show-hide">
                         <ul class="menu-list">
                             <li><a href="http://studentlife.uiowa.edu/" target="_blank">Division of Student Life</a></li>
@@ -42,12 +42,12 @@
                 <img src="{$BaseHref}division-bar/images/division-bar/uiowa.png" alt="The University of Iowa" width="177">
             </a>
 
-            <button href="#" class="directory-toggle" target="_blank"> 
+            <button class="directory-toggle" target="_blank"> 
                 <img src="{$BaseHref}division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
             </button>
 
 		    <% if SearchForm %>
-		    	<a href="#" class="search-toggle">Search</a>
+		    	<button class="search-toggle">Search</button>
 		    <% end_if %>
         </div>
         <% if SearchForm %>
