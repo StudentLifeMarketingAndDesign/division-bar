@@ -3,7 +3,7 @@
         <div class="division-directory clearfix">
             <div class="dosl-wrapper clearfix">
                 <a href="http://studentlife.uiowa.edu/" class="dosl">
-                    <img src="{$BaseHref}division-bar/images/division-bar/dosl-logo.png" alt="Division of Student Life">
+                    <img src="{$absoluteBaseURL}division-bar/images/division-bar/dosl-logo.png" alt="Division of Student Life">
                 </a>
                 <p class="adr">
                     The Division of Student Life fosters student success by creating and promoting inclusive educationally purposeful services and activities within and beyond the classroom.
@@ -11,7 +11,7 @@
             </div>
             <ul class="division-menu">
                 <li class="has-subnav">
-                    <a href="#" class="directory-link">Directory Navigation</a>
+                    <button class="directory-link">Directory Navigation</button>
                     <div class="division-show-hide">
                         <ul class="menu-list">
                             <li><a href="http://studentlife.uiowa.edu/" target="_blank">Division of Student Life</a></li>
@@ -39,15 +39,16 @@
         </div><!-- end .division-directory -->
         <div class="clearfix">
             <a href="http://www.uiowa.edu/" class="uiowa" target="_blank">
-                <img src="{$BaseHref}division-bar/images/division-bar/uiowa.png" alt="The University of Iowa" width="177">
+                <img src="{$absoluteBaseURL}division-bar/images/division-bar/uiowa.png" alt="The University of Iowa" width="177">
             </a>
 
-            <button href="#" class="directory-toggle" target="_blank"> 
-                <img src="{$BaseHref}division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
+            <button class="directory-toggle" target="_blank"> 
+                <img src="{$absoluteBaseURL}division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
             </button>
 
+
 		    <% if SearchForm %>
-		    	<a href="#" class="search-toggle">Search</a>
+		    	<button class="search-toggle">Search</button>
 		    <% end_if %>
         </div>
         <% if SearchForm %>
