@@ -7,7 +7,13 @@ $(document).ready(function() {
     // Show/Hide the directory navigation on-click
     $('.directory-toggle').click(function() {
         $(this).toggleClass("active");
-        $('.division-directory').toggleClass("active");
+        $('.division-directory').toggleClass("active")
+        if ($(this).getAttribute('aria-expanded') == 'true'){
+            $(this).setAttribute('aria-expanded', 'false');
+        }
+        else {
+            $(this).setAttribute('aria-expanded', 'true');
+        }
         return false;
     });
 
@@ -16,6 +22,12 @@ $(document).ready(function() {
     $('.search-toggle').click(function() {
         $(this).toggleClass('active');
         $('.division-search').slideToggle();
+        if ($(this).getAttribute('aria-expanded') == 'true'){
+            $(this).setAttribute('aria-expanded', 'false');
+        }
+        else {
+            $(this).setAttribute('aria-expanded', 'true');
+        }
         return false;
     });
 
@@ -24,7 +36,12 @@ $(document).ready(function() {
     $('.division-menu').on('click', '.has-subnav a', function() {
         $(this).next().slideToggle('slow');
         $(this).toggleClass('active');
-
+        if ($(this).getAttribute('aria-hidden') == 'true'){
+            $(this).setAttribute('aria-hidden', 'false');
+        }
+        else {
+            $(this).setAttribute('aria-hidden', 'true');
+        }
     });
 
 });

@@ -11,8 +11,8 @@
             </div>
             <ul class="division-menu">
                 <li class="has-subnav">
-                    <button id="collapsible-0" aria-hidden="true" class="directory-link">Directory Navigation</button>
-                    <div class="division-show-hide">
+                    <button aria-expanded="false" aria-controls="collapsible-0" class="directory-link">Directory Navigation</button>
+                    <div aria-hidden="true" id="collapsible-0" class="division-show-hide">
                         <ul class="menu-list">
                             <li><a href="http://studentlife.uiowa.edu/" target="_blank">Division of Student Life</a></li>
                             <li><a href="http://csil.uiowa.edu/" target="_blank">Center for Student Involvement &amp; Leadership</a></li>
@@ -47,7 +47,7 @@
             </button>
 
 		    <% if SearchForm %>
-		    	<button class="search-toggle">Search</button>
+		    	<button  aria-expanded="false" aria-controls="collapsible-0" class="search-toggle">Search</button>
 		    <% end_if %>
         </div>
         <% if SearchForm %>
