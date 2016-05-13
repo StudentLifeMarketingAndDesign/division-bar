@@ -7,13 +7,14 @@ $(document).ready(function() {
     // Show/Hide the directory navigation on-click
     $('.directory-toggle').click(function() {
         $(this).toggleClass("active");
-        $('.division-directory').toggleClass("active")
-        if ($(this).getAttribute('aria-expanded') == 'true'){
-            $(this).setAttribute('aria-expanded', 'false');
-        }
-        else {
-            $(this).setAttribute('aria-expanded', 'true');
-        }
+        $('.division-directory').toggleClass("active");
+
+        var state = $(this).attr('aria-expanded') == 'false' ? true : false;
+        var stateHidden = $(this).attr('aria-hidden') == 'false' ? true : false;
+
+        $(this).attr('aria-expanded', state);
+        $(this).attr('aria-hidden', stateHidden);
+
         return false;
     });
 
@@ -22,12 +23,13 @@ $(document).ready(function() {
     $('.search-toggle').click(function() {
         $(this).toggleClass('active');
         $('.division-search').slideToggle();
-        if ($(this).getAttribute('aria-expanded') == 'true'){
-            $(this).setAttribute('aria-expanded', 'false');
-        }
-        else {
-            $(this).setAttribute('aria-expanded', 'true');
-        }
+
+        var state = $(this).attr('aria-expanded') == 'false' ? true : false;
+        var stateHidden = $(this).attr('aria-hidden') == 'false' ? true : false;
+
+        $(this).attr('aria-expanded', state);
+        $(this).attr('aria-hidden', stateHidden);
+
         return false;
     });
 
@@ -36,12 +38,15 @@ $(document).ready(function() {
     $('.division-menu').on('click', '.has-subnav a', function() {
         $(this).next().slideToggle('slow');
         $(this).toggleClass('active');
-        if ($(this).getAttribute('aria-hidden') == 'true'){
-            $(this).setAttribute('aria-hidden', 'false');
-        }
-        else {
-            $(this).setAttribute('aria-hidden', 'true');
-        }
+
+        var state = $(this).attr('aria-expanded') == 'false' ? true : false;
+        var stateHidden = $(this).attr('aria-hidden') == 'false' ? true : false;
+        
+        $(this).attr('aria-expanded', state);
+        $(this).attr('aria-hidden', stateHidden);
+
+
+
     });
 
 });

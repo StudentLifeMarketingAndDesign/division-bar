@@ -47,7 +47,7 @@
             </button>
 
 		    <% if SearchForm %>
-		    	<button  aria-expanded="false" aria-controls="collapsible-0" class="search-toggle">Search</button>
+		    	<button aria-expanded="false" aria-controls="collapsible-0" class="search-toggle">Search</button>
 		    <% end_if %>
         </div>
         <% if SearchForm %>
