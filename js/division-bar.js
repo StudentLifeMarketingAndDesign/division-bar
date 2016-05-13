@@ -10,10 +10,7 @@ $(document).ready(function() {
         $('.division-directory').toggleClass("active");
 
         var state = $(this).attr('aria-expanded') == 'false' ? true : false;
-        var stateHidden = $(this).attr('aria-hidden') == 'false' ? true : false;
-
         $(this).attr('aria-expanded', state);
-        $(this).attr('aria-hidden', stateHidden);
 
         return false;
     });
@@ -25,10 +22,7 @@ $(document).ready(function() {
         $('.division-search').slideToggle();
 
         var state = $(this).attr('aria-expanded') == 'false' ? true : false;
-        var stateHidden = $(this).attr('aria-hidden') == 'false' ? true : false;
-
         $(this).attr('aria-expanded', state);
-        $(this).attr('aria-hidden', stateHidden);
 
         return false;
     });
@@ -40,11 +34,7 @@ $(document).ready(function() {
         $(this).toggleClass('active');
 
         var state = $(this).attr('aria-expanded') == 'false' ? true : false;
-        var stateHidden = $(this).attr('aria-hidden') == 'false' ? true : false;
-        
         $(this).attr('aria-expanded', state);
-        $(this).attr('aria-hidden', stateHidden);
-
 
 
     });
