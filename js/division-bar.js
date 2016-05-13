@@ -12,6 +12,10 @@ $(document).ready(function() {
         var state = $(this).attr('aria-expanded') == 'false' ? true : false;
         $(this).attr('aria-expanded', state);
 
+        var stateHidden = $(this).attr('aria-hidden') == 'false' ? true : false;
+        $(this).attr('aria-hidden', stateHidden);
+
+
         return false;
     });
 
@@ -24,6 +28,9 @@ $(document).ready(function() {
         var state = $(this).attr('aria-expanded') == 'false' ? true : false;
         $(this).attr('aria-expanded', state);
 
+        var stateHidden = $(this).attr('aria-hidden') == 'false' ? true : false;
+        $(this).attr('aria-hidden', stateHidden);
+        
         return false;
     });
 
@@ -36,6 +43,8 @@ $(document).ready(function() {
         var state = $(this).attr('aria-expanded') == 'false' ? true : false;
         $(this).attr('aria-expanded', state);
 
+        var stateHidden = $(this).attr('aria-hidden') == 'false' ? true : false;
+        $(this).attr('aria-hidden', stateHidden);
 
     });
 
