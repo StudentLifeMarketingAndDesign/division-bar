@@ -1,4 +1,4 @@
-<div class="division-topbar">
+<div class="division-topbar uiowa-bar">
     <div class="container">
         <div class="clearfix">
             <a href="http://www.uiowa.edu/" class="uiowa" target="_blank">

@@ -192,7 +192,7 @@
     padding: 5px 0 4px 5px;
     position: relative;
     vertical-align: middle;
-    width: 120px;
+    width: 100%;
     margin-bottom: 0;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -200,6 +200,10 @@
     -webkit-transition: width 0.2s ease, background-color 0.2s ease;
     -moz-transition: width 0.2s ease, background-color 0.2s ease;
     transition: width 0.2s ease, background-color 0.2s ease;
+
+    @media only screen and (min-width: 601px) {
+        width: 120px;
+    }
 }
 
 /* Focus */
@@ -320,12 +324,6 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
-    .division-menu .division-show-hide {
-        display: block !important;
-    }
-}
-
 /* Second level navigation  */
 
 /* ======================================================================
@@ -366,10 +364,6 @@
         }
 
         border-top: 1px solid #444;
-    }
-
-    .division-show-hide {
-        display: none;
     }
 
     .division-menu {

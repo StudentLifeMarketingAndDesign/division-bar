@@ -9,10 +9,10 @@
                     The Division of Student Life fosters student success by creating and promoting inclusive educationally purposeful services and activities within and beyond the classroom.
                 </p>
             </div>
-            <ul class="division-menu">
+            <ul class="division-menu"  aria-hidden="true" id="collapsible-0">
                 <li class="has-subnav">
-                    <button aria-expanded="false" aria-controls="collapsible-0" class="directory-link">Directory Navigation</button>
-                    <div aria-hidden="true" id="collapsible-0" class="division-show-hide">
+<%--                     <a aria-expanded="false" aria-controls="collapsible-0" class="directory-link">Directory Navigation</a> --%>
+                    <div class="division-show-hide">
                         <ul class="menu-list">
                             <li><a href="http://studentlife.uiowa.edu/" target="_blank">Division of Student Life</a></li>
                             <li><a href="http://csil.uiowa.edu/" target="_blank">Center for Student Involvement &amp; Leadership</a></li>
@@ -47,11 +47,11 @@
             </button>
 
 		    <% if SearchForm %>
-		    	<button aria-expanded="false" aria-controls="collapsible-0" class="search-toggle">Search</button>
+		    	<button aria-expanded="false" aria-controls="collapsible-1" class="search-toggle">Search</button>
 		    <% end_if %>
         </div>
         <% if SearchForm %>
-        <div class="division-search">
+        <div class="division-search" id="collapsible-1">
         <% with SearchForm %>
             <form $FormAttributes>
 	            <label for="divisionsearchinput">Search</label>
