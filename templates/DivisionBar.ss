@@ -14,7 +14,6 @@
 <%--                     <a aria-expanded="false" aria-controls="collapsible-0" class="directory-link">Directory Navigation</a> --%>
                     <div class="division-show-hide">
                         <ul class="menu-list">
-                            <li><a href="http://studentlife.uiowa.edu/" target="_blank">Division of Student Life</a></li>
                             <li><a href="http://csil.uiowa.edu/" target="_blank">Center for Student Involvement &amp; Leadership</a></li>
                             <li><a href="http://counseling.studentlife.uiowa.edu" target="_blank">Counseling Service</a></li>
                             <li><a href="http://dos.uiowa.edu/" target="_blank">Dean of Students</a></li>
