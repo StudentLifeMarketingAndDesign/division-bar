@@ -1,4 +1,4 @@
-<div class="division-topbar">
+<div class="division-topbar" role="navigation" aria-label="Division Directory and Search">
     <div class="wrapper">
         <div class="division-directory clearfix">
             <div class="dosl-wrapper clearfix">
@@ -55,7 +55,7 @@
             <form $FormAttributes>
 	            <label for="divisionsearchinput">Search</label>
                 <input type="search" title="search" id="divisionsearchinput" placeholder="Search" results="5" name="Search" class="division-search-input">
-                <label for="submit">Submit</label>
+                <label for="divisionsearchinput">Submit</label>
                 <input type="submit" title="submit" class="division-search-btn" value="search">
             </form>
         <% end_with %>
