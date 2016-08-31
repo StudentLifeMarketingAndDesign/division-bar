@@ -1,4 +1,4 @@
-<div class="division-topbar">
+<div class="division-topbar" role="navigation" aria-label="Division Directory and Search">
     <div class="row">
         <div class="division-column">
             <div class="division-directory clearfix">
@@ -10,9 +10,9 @@
                         The Division of Student Life fosters student success by creating and promoting inclusive educationally purposeful services and activities within and beyond the classroom.
                     </p>
                 </div>
-                <ul class="division-menu">
+                 <ul class="division-menu"  aria-hidden="true" id="collapsible-0">
                     <li class="has-subnav">
-                        <a href="#" class="directory-link">Directory Navigation</a>
+                        <%-- <a href="#" class="directory-link">Directory Navigation</a> --%>
                         <div class="division-show-hide">
                             <ul class="menu-list">
                                 <li><a href="http://studentlife.uiowa.edu/" target="_blank">Division of Student Life</a></li>
@@ -43,20 +43,21 @@
                     <img src="{$absoluteBaseURL}division-bar/images/division-bar/uiowa.png" alt="The University of Iowa" width="177">
                 </a>
 
-                <a href="#" class="directory-toggle" target="_blank"> 
-                    <img src="{$absoluteBaseURL}division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
-                </a>
-    		    <% if SearchForm %>
-    		    	<a href="#" class="search-toggle">Search</a>
-    		    <% end_if %>
+            <button aria-expanded="false" aria-controls="collapsible-0" class="directory-toggle" target="_blank"> 
+                <img src="{$absoluteBaseURL}division-bar/images/division-bar/division_studentlife.png" alt="Division of Student Life" width="224">
+            </button>
+            <% if SearchForm %>
+                <button aria-expanded="false" aria-controls="collapsible-1" class="search-toggle">Search</button>
+            <% end_if %>
             </div>
             <% if SearchForm %>
-            <div class="division-search">
+            <div class="division-search" id="collapsible-1">
             <% with SearchForm %>
                 <form $FormAttributes>
-    	            <label for="divisionsearchinput">Search</label>
-                    <input type="search"  id="divisionsearchinput" placeholder="Search" results="5" name="Search" class="division-search-input">
-                    <input type="submit" class="division-search-btn" value="search">
+                    <label for="divisionsearchinput">Search</label>
+                    <input type="search" title="search" id="divisionsearchinput" placeholder="Search" results="5" name="Search" class="division-search-input">
+                    <label for="divisionsearchinput">Submit</label>
+                    <input type="submit" title="submit" class="division-search-btn" value="search">
                 </form>
             <% end_with %>
             </div>

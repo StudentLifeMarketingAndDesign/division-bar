@@ -1,16 +1,30 @@
 /* Resets */
 .division-topbar input[type="submit"] {
     -webkit-appearance: button;
+
     /* 2 */
     cursor: pointer;
+
     /* 3 */
+}
+
+.division-topbar .division-column button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    text-align: left;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
 }
 
 .division-topbar input[type="search"] {
     -webkit-appearance: textfield;
+
     /* 1 */
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+
     /* 2 */
     box-sizing: border-box;
 }
@@ -57,7 +71,9 @@
 
     .division-column {
         position: relative;
+
         @include grid-column($columns: 12, $last-column: true, $collapse: true);
+
         @media #{$large-up} {
             @include grid-column($collapse: true);
         }
@@ -74,6 +90,7 @@
     opacity: .7;
     width: 177px;
     margin-left: 10px;
+
     @media #{$large-up} {
         margin-left: 0;
     }
@@ -96,6 +113,7 @@
     height: 40px;
     text-decoration: none;
     width: 40px;
+
     @media #{$large-up} {
         border-left: none;
         -webkit-box-shadow: none;
@@ -109,6 +127,7 @@
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.5), -1px 0 0 rgba(255, 255, 255, 0.1);
     -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.5), -1px 0 0 rgba(255, 255, 255, 0.1);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.5), -1px 0 0 rgba(255, 255, 255, 0.1);
+
     @media #{$large-up} {
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
@@ -118,7 +137,6 @@
 }
 
 .directory-toggle {
-
     &:after {
         left: 14px;
         content: '';
@@ -130,18 +148,22 @@
         position: relative;
         text-decoration: none;
         width: 0px;
+
         @media #{$large-up} {
             left: 4px;
         }
     }
+
     &.active:after {
         /* flips the arrow upside down when clicked */
         border-width: 0 5px 6px 5px;
         border-color: transparent transparent #777 transparent;
     }
+
     img {
         display: none;
     }
+
     @media #{$large-up} {
         float: right;
         width: 260px;
@@ -150,6 +172,7 @@
         &:hover {
             text-decoration: none;
         }
+
         img {
             display: inline-block;
         }
@@ -157,10 +180,7 @@
 
     @media #{$xlarge-up} {
         padding-left: 19px;
-
     }
-
-
 }
 
 .search-toggle {
@@ -168,6 +188,7 @@
     background-size: 52%;
     padding: 10px;
     text-indent: -999em;
+
     @media #{$large-up} {
         display: none;
     }
@@ -185,9 +206,11 @@
     position: relative;
     left: 0;
     bottom: 0;
+
     form {
         padding: 10px;
     }
+
     @media #{$large-up} {
         border-top: none;
         display: block !important;
@@ -198,10 +221,12 @@
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none;
+
         form {
             padding: 0;
         }
     }
+
     label {
         /* visually hides the label */
         border: 0;
@@ -213,10 +238,12 @@
         position: absolute;
         width: 1px;
     }
+
     form {
         margin: 0;
         position: relative;
     }
+
     input[type="search"].division-search-input {
         -webkit-appearance: textfield;
         box-sizing: border-box;
@@ -242,19 +269,23 @@
         -webkit-transition: width 0.2s ease, background-color 0.2s ease;
         -moz-transition: width 0.2s ease, background-color 0.2s ease;
         transition: width 0.2s ease, background-color 0.2s ease;
+
         &:focus {
             outline: none;
             text-shadow: none;
             width: 180px;
         }
+
         @media #{$large-up} {
             width: 120px;
         }
     }
+
     [placeholder]:focus::-webkit-input-placeholder {
         transition: opacity 0.5s 0.5s ease;
         opacity: 0;
     }
+
     .division-search-btn {
         border: 0;
         clip: rect(0 0 0 0);
@@ -277,8 +308,8 @@
     -webkit-transition: max-height .6s ease-in-out;
     -moz-transition: max-height .6s ease-in-out;
     transition: max-height .6s ease-in-out;
-
 }
+
 /* show the division directory when toggled */
 .division-directory.active {
     max-height: 800px;
@@ -287,6 +318,7 @@
 .division-menu .directory-link {
     display: block;
     position: relative;
+
     @media #{$large-up} {
         display: none;
     }
@@ -296,12 +328,11 @@
     color: #ddd;
 }
 
-
-
 .dosl-wrapper, .division-menu {
     float: none;
     padding: 0;
     width: 100%;
+
     @media #{$large-up} {
         float: left;
         padding: 10px 0;
@@ -310,7 +341,6 @@
 }
 
 a.dosl, p.adr {
-
     float: none;
     width: 100%;
     font-size: 11px;
@@ -323,7 +353,7 @@ a.dosl, p.adr {
         width: 50%;
     }
 
-    @media #{$large-up}{
+    @media #{$large-up} {
         padding-top: 0;
         padding-left: 0;
         padding-bottom: 10px;
@@ -334,6 +364,7 @@ a.dosl, p.adr {
 
 .dosl img {
     max-width: 182px;
+
     @media #{$large-up} {
         margin-left: 0;
     }
@@ -352,30 +383,37 @@ a.dosl, p.adr {
 
 .division-menu {
     border-top: 1px solid #444;
+
     .menu-list {
         float: none;
         padding-left: 0;
         width: 100%;
+
         @media #{$large-up} {
             float: left;
             padding-left: 2.75%;
             width: 33%;
         }
     }
+
     ul {
         background: #333;
+
         a {
             font-size: 14px;
             padding-left: 20px;
+
             @media #{$large-up} {
                 font-size: 11px;
                 padding-left: 10px;
             }
         }
+
         @media #{$large-up} {
             background: none;
         }
     }
+
     a {
         border-bottom: 1px solid #444;
         border-left: none;
@@ -385,6 +423,7 @@ a.dosl, p.adr {
         -moz-transition: none;
         transition: none;
         display: block;
+
         @media #{$large-up} {
             background: none;
             border-left: 1px solid #555;
@@ -396,12 +435,14 @@ a.dosl, p.adr {
             -webkit-transition: border-color .1s linear;
             -moz-transition: border-color .1s linear;
             transition: border-color .1s linear;
+
             &:hover {
                 border-left-color: #ffce39;
                 color: #fff;
             }
         }
     }
+
     & > li > a {
         border-left: none;
         color: #e5e5e5;
@@ -409,10 +450,12 @@ a.dosl, p.adr {
         margin-bottom: 0;
         text-transform: none;
         padding-left: 10px;
+
         @media #{$large-up} {
             padding-left: 0;
         }
     }
+
     .has-subnav > a:after {
         /* if subnav, add a plus sign */
         content: '+';
@@ -423,15 +466,11 @@ a.dosl, p.adr {
         top: 0;
         right: 0;
     }
+
     .has-subnav > a.active:after {
         content: "-";
     }
-    .division-show-hide {
-        display: none;
-        @media #{$large-up} {
-            display: block !important;
-        }
-    }
+
     @media #{$large-up} {
         padding: 25px 0 0;
         width: 75%;
