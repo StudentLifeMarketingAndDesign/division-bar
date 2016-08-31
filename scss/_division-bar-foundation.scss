@@ -8,14 +8,19 @@
     /* 3 */
 }
 
-.division-topbar .division-column button {
+.division-topbar button.directory-toggle {
     margin: 0;
     padding: 0;
+    padding-left: 10px;
     background: none;
     text-align: left;
     -webkit-transition: none;
     -moz-transition: none;
     transition: none;
+}
+
+.division-topbar button.search-toggle {
+    margin-bottom: 0;
 }
 
 .division-topbar input[type="search"] {
